@@ -16,7 +16,7 @@ async function startTikTokLive() {
     const proxy = 'http://14.229.249.242:8080';
     const agent = new ProxyAgent(proxy);
 
-    const tiktokLiveConnection = new WebcastPushConnection('@z9pubg', {
+    const tiktokLiveConnection = new WebcastPushConnection('@1lenhan', {
       requestOptions: {
         httpsAgent: agent,
         timeout: 10000,
